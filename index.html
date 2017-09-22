@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>FacsQuiz | ZIVAC</title>
+
+  <base href="/">
+
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css' />
+  <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+  <style>
+    html,
+    body {
+      height: 100%;
+      margin: 0;
+      padding: 0;
+
+      color: #0d1942;
+
+      font-family: 'Ubuntu Mono', monospace;
+    }
+
+    #header-parallax {
+      background: #0d1942;
+    }
+
+    .blue {
+      color: #0d1942;
+    }
+
+    .red {
+      color: #ef476f;
+    }
+
+    #slide1 {
+      background: url(/assets/img/header-girl.png) no-repeat;
+      background-size: contain;
+      background-position: center;
+      position: absolute;
+
+      height: 400px;
+
+      width: 100%;
+    }
+
+    #slide2 {
+      background: url(/assets/img/header-overlay-1.png) no-repeat;
+      background-size: contain;
+      background-position: center;
+      position: absolute;
+
+      width: 100%;
+    }
+
+    #slide3 {
+      background: url(/assets/img/header-overlay-2.png) no-repeat;
+      background-size: contain;
+      background-position: center;
+      position: absolute;
+
+      width: 100%;
+    }
+
+     /* Medium Devices, Desktops */
+    @media only screen and (min-width : 992px) {
+      #slide1 {
+        height: 400px;
+      }
+
+      #slide2 {
+        height: 400px;
+      }
+
+      #slide3 {
+        height: 400px;
+      }
+
+      h1 {
+        font-size: 6rem;
+      }
+    }
+
+    @media only screen and (max-width : 992px) {
+      #slide1 {
+        height: 200px;
+      }
+
+      #slide2 {
+        height: 200px;
+      }
+
+      #slide3 {
+        height: 200px;
+      }
+
+      h1 {
+        font-size: 2rem;
+      }
+    }
+
+    .white {
+      color: white;
+    }
+
+    .bleumarin {
+      color: #00ffcc;
+    }
+
+    #header-facs {
+      left: 40% !important;
+      top: 15% !important;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <section id='header-parallax'>
+      <div id='slide1' data-depth='0.7'></div>
+      <div id='slide2' data-depth='0.8'></div>
+      <div id='slide3' data-depth='0.9'></div>
+      <div id='header-facs' data-depth='1'>
+        <h1>
+          <span class='white'>F</span><span class='bleumarin'>acial</span><br />
+          <span class='white'>A</span><span class='bleumarin'>ction</span><br />
+          <span class='white'>C</span><span class='bleumarin'>oding</span><br />
+          <span class='white'>S</span><span class='bleumarin'>ystem</span>
+        </h1>
+      </div>
+    </section>
+  </header>
+
+  <div id="content">
+    <app-root></app-root>
+  </div>
+
+  <footer>
+    Footer
+    <footer>
+
+</html><script type="text/javascript" src="inline.bundle.js"></script><script type="text/javascript" src="polyfills.bundle.js"></script><script type="text/javascript" src="styles.bundle.js"></script><script type="text/javascript" src="vendor.bundle.js"></script><script type="text/javascript" src="main.bundle.js"></script>
